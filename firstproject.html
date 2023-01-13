@@ -9,11 +9,11 @@
         <title>My first web page</title> 
     </head>
     <body>
-        <h1>This is my website!</h1>
+        <header>
+         <h1>This is my website!</h1>
 
-        <hr>
-
-        <nav>
+         <nav aria-label="primary-navigation">
+            
             <ul>
                 <li>
                     <a href="#HTML">Learn HTML</a>
@@ -22,55 +22,59 @@
                     <a href="#ExtraInfo">More about me</a>
                 </li>
             </ul>
-        </nav>
-        
-        <section id="HTML">
-        <h2>I'm learing HTML</h2>
-        <p>And other coding aspects</p>
+         </nav>
+        </header>
 
-        <img src="Images/HTML5.PNG" alt="Image" title="A logo of HTMl5" height="100"  width="100">
-
-        <figure>
+        <hr>
+        <main>
+         <article id="HTML">
+         <h2>I'm learing HTML</h2>
+         <p>And other coding aspects</p>
+         <section>
+            <h3>HTML5</h3>
+           <img src="Images/HTML5.PNG" alt="Image" title="A logo of HTMl5" height="100"  width="100">
+           <figure>
             <figcaption>An example of HTML5 Code:</figcaption>
             <p><code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code></p>
-        </figure>
+           </figure>
+         </section>
 
-        <h3>My daily schedule</h3>
-        <p>I will tell you about how:</p>
+          <h3>My daily schedule</h3>
+          <p>I will tell you about how:</p>
             <ol>
             <li> - I study <strong><abbr title="Hyper Text Markup Language">HTML</abbr></strong></li>
             <li> - I plan out my schedule</li>
             <li> - I use <abbr title="Mozilla developer network"><a href="https://developer.mozilla.org/">MDN</a></abbr></li> 
-        </ol>
-        </section>
+          </ol>
+          </article>
 
-        <hr>
+         <hr>
 
-        <section id="ExtraInfo">
-        <h2>I am also living in a nice villa</h2>
-        <p>I like it here</p>
+         <article id="ExtraInfo">
+         <h2>I am also living in a nice villa</h2>
+         <p>I like it here</p>
 
-        <h3>Places I want to visit:</h3>
-        <ul>
-        <li><p>It has been a very long time since canada</p></li>
+         <h3>Places I want to visit:</h3>
+         <ul>
+         <li><p>It has been a very long time since canada</p></li>
 
-        <li><p>I like this place especially:</p>
+         <li><p>I like this place especially:</p>
 
-        <address>
+         <address>
             Nigeria falls, canada   
-        </address>
-        </li>
-        </ul>
-        <figure>
+         </address>
+         </li>
+         </ul>
+         <figure>
          <img src="Images/download.jpg" alt="Image" height="200" width="200" title="Niagara Falls" loading="lazy">
-         <figcaption>
+          <figcaption>
             View of Niagara Falls
-         </figcaption>
-        </figure>
+          </figcaption>
+         </figure>
 
-        <!-- Add more food and images -->
-        <h3>Food I like:</h3>
-        <dl>
+         <!-- Add more food and images -->
+         <h3>Food I like:</h3>
+         <dl>
             <dt>Traditional desi food, especially <em>nihari!</em></dt>
             <dd>The savoury favour is the <strong>best</strong>!</dd>
 
@@ -79,18 +83,19 @@
 
             <dt>Chanay is my most favourite breakfast food! </dt>
             <dd><strong><em>Wah Ji Wah! </em></strong></dd>
+         </dl>
+         </article>
 
-        </dl>
-        </section>
-
-        <img src="Images/Nihari.PNG" title= "Nihari Nihari Nihari" alt="Image" height="200" width="200" loading="lazy">
-
+         <img src="Images/Nihari.PNG" title= "Nihari Nihari Nihari" alt="Image" height="200" width="200" loading="lazy">
+        </main>
         <hr>
-
-        &lt;&lt;&lt; &copy; <a href="about.html">Hashir Farooq</a> &gt;&gt;&gt;
+    <footer>
+        <p>
+         &lt;&lt;&lt; &copy; <a href="about.html">Hashir Farooq</a> &gt;&gt;&gt;
+        </p>
         <p><a href="#">Back to top</a></p>
-
+    </footer>
     </body>
 </html>
 
-<!-- 1:47:26 Timestamp -->
+<!-- 2:13:15 Timestamp -->
