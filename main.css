@@ -22,3 +22,19 @@ a:hover,a:active{
 mark{
     color:goldenrod
 }
+
+.hover-rotate{
+    overflow: hidden;
+    width: 210px;
+    height: 210px;
+}
+
+.hover-rotate img {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .hover-rotate:hover img {
+    transform: scale(1.3) rotate(5deg);
+  }
