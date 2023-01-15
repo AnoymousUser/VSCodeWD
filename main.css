@@ -33,6 +33,7 @@ mark{
     transition: all 0.3s;
     box-sizing: border-box;
     max-width: 100%;
+    border: 3px solid #eee;
   }
   
   .hover-rotate:hover img {
