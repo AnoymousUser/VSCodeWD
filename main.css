@@ -23,6 +23,8 @@ mark{
     color:goldenrod
 }
 
+p:hover {color: lightblue;}
+
 .hover-rotate{
     overflow: hidden;
     width: 210px;
@@ -31,13 +33,13 @@ mark{
 
 .hover-rotate img {
     transition: all 0.3s;
-    box-sizing: border-box;
-    max-width: 100%;
     border: 3px solid #eee;
+    max-width: 100%;
+    box-sizing: border-box;
   }
   
   .hover-rotate:hover img {
-    transform: scale(1.3) rotate(5deg);
+    transform:scale(1.3) rotate(5deg)
   }
 
   table, td, tr, th, caption {
