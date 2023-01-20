@@ -7,6 +7,10 @@ body{
     color: whitesmoke;
 }
 
+hr:hover{
+    color: lightblue;
+}
+
 a{
     color: aliceblue;
 }
@@ -22,8 +26,6 @@ a:hover,a:active{
 mark{
     color:goldenrod
 }
-
-p:hover {color: lightblue;}
 
 .hover-rotate{
     overflow: hidden;
