@@ -165,8 +165,22 @@
             <p>I would really like to hear from you!</p>
 
             <form action="https://httpbin.org/get" method="get">
-                <label for="firstName">First Name:</label>
-                <input type="text" name="firstName" id="firstName" placeholder="Enter here" autocomplete="on" required>
+                <p>
+                 <label for="firstName">First Name:</label>
+                 <input type="text" name="firstName" id="firstName" placeholder="Enter here:" autocomplete="on" required>
+                </p>
+                <p>
+                 <label for="Lastname">Last Name:</label>
+                 <input type="text" name="Lastname" id="Lastname" placeholder="Enter here:" autocomplete="on" required>
+                </p>
+                <p>
+                 <label for="Password">A secret:</label>
+                 <input type="password" name="Password" id="Password" placeholder="Any secret you have:" autocomplete="on" required>
+                </p>
+                <p>
+                 <label for="Phone">Phone Number:</label>
+                 <input type="tel" name="Phone" id="Phone" placeholder="123-456-7890" autocomplete="on"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </p>
             </form>
          </article>
 

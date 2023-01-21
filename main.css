@@ -23,6 +23,10 @@ a:hover,a:active{
     color: #eee;
 }
 
+a:hover{
+    cursor: pointer;
+}
+
 mark{
     color:goldenrod
 }
