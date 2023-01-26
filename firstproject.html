@@ -165,44 +165,59 @@
             <p>I would really like to hear from you! (I actually won't get any information)</p>
 
             <form action="https://httpbin.org/get" method="get">
-                <p>
-                 <label for="firstName">First Name:</label>
-                 <input type="text" name="firstName" id="firstName" placeholder="Enter here:" autocomplete="on" required>
-                </p>
-                <p>
-                 <label for="Lastname">Last Name:</label>
-                 <input type="text" name="Lastname" id="Lastname" placeholder="Enter here:" autocomplete="on" required>
-                </p>
-                <p>
-                 <label for="Password">A secret:</label>
-                 <input type="password" name="Password" id="Password" placeholder="Any secret you have:" autocomplete="on" required>
-                </p>
-                <p>
-                 <label for="Phone">Phone Number:</label>
-                 <input type="tel" name="Phone" id="Phone" placeholder="1234567890" autocomplete="on"  pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
-                </p>
-                <p>
-                 <label for="Decade">Favourite Decade:</label>
-                 <input type="number" name="Decade" id="Decade" min="1950" max="2020" step="10" value="1980">
-                </p>
-                <p>
-                    <label for="Juice">Favourite Juice:</label>
-                    <select name="Juice" id="Juice">
-                        <optgroup label="Popular">
-                            <option value="Mango">Mango</option>
-                            <option value="Mixed">Mixed fruit</option>
-                            <option value="Orange">Orange</option>
-                            <option value="Apple">Apple</option>
-                        </optgroup>
-                        <optgroup label="Rare">
-                            <option value="LemonMint" selected>Lemon Mint</option>
-                            <option value="Pinnaple">Pinnaple</option>
-                            <option value="Grape">Grape</option>
-                            <option value="Carrot">Carrot</option>
-                        </optgroup>
-                        <option value="Others">Others</option>
-                    </select>
-                </p>
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <p>
+                     <label for="firstName">First Name:</label>
+                     <input type="text" name="firstName" id="firstName" placeholder="Enter here:" autocomplete="on" required>
+                    </p>
+                    <p>
+                     <label for="Lastname">Last Name:</label>
+                     <input type="text" name="Lastname" id="Lastname" placeholder="Enter here:" autocomplete="on" required>
+                    </p>
+                    <p>
+                     <label for="Password">A secret:</label>
+                     <input type="password" name="Password" id="Password" placeholder="Any secret you have:" autocomplete="on" required>
+                    </p>
+                    <p>
+                     <label for="Phone">Phone Number:</label>
+                     <input type="tel" name="Phone" id="Phone" placeholder="1234567890" autocomplete="on"  pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                    </p>
+                    <p>
+                     <label for="Decade">Favourite Decade:</label>
+                     <input type="number" name="Decade" id="Decade" min="1950" max="2020" step="10"  value="1980">
+                    </p>
+                    <p>
+                        <label for="Juice">Favourite Juice:</label>
+                        <select name="Juice" id="Juice" multiple size="5">
+                            <optgroup label="Popular">
+                                <option value="Mango">Mango</option>
+                                <option value="Mixed">Mixed fruit</option>
+                                <option value="Orange">Orange</option>
+                                <option value="Apple">Apple</option>
+                            </optgroup>
+                            <optgroup label="Rare">
+                                <option value="LemonMint" selected>Lemon Mint</option>
+                                <option value="Pinnaple">Pinnaple</option>
+                                <option value="Grape">Grape</option>
+                                <option value="Carrot">Carrot</option>
+                            </optgroup>
+                            <option value="Others">Others</option>
+                        </select>
+                    </p>
+                    <!-- <p>
+                        <label for="Juice">Favourite Juice</label>
+                        <input type="text" name="Juice" id="Juice" list="Juice-List">
+                        <datalist id="Juice-List">
+                            <option value="Mango">
+                            <option value="Mixed">
+                            <option value="Orange">
+                            <option value="Apple">
+                            <option value="LemonMint">
+                            <option value="Others">
+                        </datalist>
+                    </p> -->
+                </fieldset>
             </form>
          </article>
 
@@ -217,4 +232,4 @@
     </body>
 </html>
 
-<!-- 3:02:47 Timestamp -->
+<!-- 3:08:09 Timestamp -->

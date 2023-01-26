@@ -58,3 +58,14 @@ mark{
   caption {
     font-size: 33px;
   }
+
+  legend {
+    text-align: center;
+    font-size: 22px;
+    transition:400ms;
+  }
+
+  legend:hover {
+    font-size: 33px;
+    transition:400ms;
+  }
