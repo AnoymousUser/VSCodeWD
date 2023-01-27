@@ -69,3 +69,20 @@ mark{
     font-size: 33px;
     transition:400ms;
   }
+
+  .Amazing {
+    font-family: cursive;
+    font-size: 40px;
+    color: #eee;
+    transition: all 400ms;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Amazing:hover {
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    transition: all 400ms;
+  }
