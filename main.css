@@ -79,6 +79,22 @@ mark{
     justify-content: center;
   }
 
+  .First {
+    display: grid;
+    justify-content: left;
+
+  }
+
+  .Second {
+    display: grid;
+    justify-content: center;
+  }
+
+  .third {
+    display: grid;
+    justify-content: right;
+  }
+
   .Amazing:hover {
     font-weight: bold;
     color: orange;
