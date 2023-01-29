@@ -70,35 +70,8 @@ mark{
     transition:400ms;
   }
 
-  .Amazing {
-    font-family: cursive;
-    font-size: 40px;
-    color: #eee;
-    transition: all 400ms;
-    display: flex;
-    justify-content: center;
-  }
-
-  .First {
-    display: grid;
-    justify-content: left;
-
-  }
-
-  .Second {
-    display: grid;
-    justify-content: center;
-  }
-
-  .third {
-    display: grid;
-    justify-content: right;
-  }
-
-  .Amazing:hover {
-    font-weight: bold;
-    color: orange;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    transition: all 400ms;
+  button {
+    margin-left: 170px;
+    margin-right: 170px;
+    border: 5px solid blue;
   }
