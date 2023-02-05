@@ -10,6 +10,10 @@ p{
     color: purple;
 }
 
+main {
+    font-family: monospace;
+}
+
 .Highlight{
     text-transform: uppercase;
     background-color: gold;
